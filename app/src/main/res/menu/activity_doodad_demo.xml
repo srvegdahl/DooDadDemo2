@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/resetMenuItem"
+        android:orderInCategory="200"
+        android:title="Reset"/>
+    <item
+        android:id="@+id/colorMenu"
+        android:orderInCategory="300"
+        android:title="Spot Color">
+        <menu>
+            <item
+                android:id="@+id/redBallMenuItem"
+                android:orderInCategory="310"
+                android:title="Red"/>
+            <item
+                android:id="@+id/blueBallMenuItem"
+                android:orderInCategory="320"
+                android:title="Blue"/>
+            <item
+                android:id="@+id/yellowBallMenuItem"
+                android:orderInCategory="330"
+                android:title="Yellow"/>
+        </menu>
+    </item>
+
+</menu>
